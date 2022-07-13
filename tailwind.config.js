@@ -6,11 +6,7 @@ module.exports = {
     extend: {
       colors: {
         'main-blue': '#1762B6',
-        'light-blue': '#176FD6'
-      },
-      backgroundImage: {
-        bgDark: "url('./src/assets/images/bg.jpg')",
-        bgLight: "url('./src/assets/images/bg-light.jpg')",
+        'light-blue': '#176FD6',
       },
     },
   },
