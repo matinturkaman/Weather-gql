@@ -11,14 +11,13 @@ function App(): JSX.Element {
   const [city, setCity] = useState('')
   const [value, setValue] = useState<string | undefined>('')
 
-
   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
     setCity(e.target.value)
     e.preventDefault()
   }
 
   return (
-    <div className="w-full h-screen text-white p-6 dark:bg-bgDark bg-bgLight bg-no-repeat bg-cover">
+    <div className="w-full h-screen text-white p-6 dark:bgDark bgLight bg-no-repeat bg-cover">
       <div className="flex items-center">
         <HiOutlineMenuAlt4 className="text-2xl" />
         <h1 className="ml-2 text-lg font-medium">{getDate()}</h1>
